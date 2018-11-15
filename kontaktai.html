@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Kontaktai</title>
+</head>
+<body>
+<header>
+    <nav class="top">
+        <a href="/">Pradzia</a>
+        <a href="portfolio.html">Portfolijo</a>
+        <a href="kontaktai.html">Kontaktai</a>
+    </nav>
+</header>
+<main>
+    <div class="content">
+        <header>
+            <h1>Kontaktai</h1>
+        </header>
+        <form action="saugoti.php" method="post" target="_blank">
+            <label for="vardas">Tavo vardas</label>
+            <input type="text" name="firstName" id="vardas" />
+            <hr/>
+            <select name="car" id="auto">
+                <option>Pasirinkite</option>
+                <option value="tesla">Tesla</option>
+                <option value="leaf">Nissan Leaf</option>
+            </select>
+            <hr/>
+            <lable for="ar">Ar kazkas?</lable>
+            <input type="checkbox" value="taip" id="ar"/>
+            <hr/>
+            <lable for="pa">Pasirinkimas A</lable>
+            <input type="radio" name="pasirinkimas" value="pasirinkimas A" id="pa">
+            <lable for="pb">Pasirinkimas B</lable>
+            <input type="radio" name="pasirinkimas" value="pasirinkimas B" id="pb">
+            <hr/>
+            <textarea name="klausimas" placeholder="tavo tekstas">Labas pasauli</textarea>
+            <hr>
+            <button type="submit">Klausti</button>
+        </form>
+    </div>
+</main>
+<footer>
+    <span>2018&copy; visos teises saugomos</span>
+    <nav class="bottom">
+        <a href="/">Pradzia</a>
+        <a href="portfolio.html">Portfolijo</a>
+        <a href="kontaktai.html">Kontaktai</a>
+    </nav>
+</footer>
+</body>
+</html>
